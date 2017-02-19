@@ -1,0 +1,24 @@
+RNN.ipynb -- shuffle Jlist at the init for once
+
+    iter 30 Wed Oct  5 10:50:28 2016
+    3517 30117 0.116777899525
+
+    iter 112 Wed Oct  5 12:39:24 2016
+    6953 30117 0.230866288143
+
+    iter 249 Wed Oct  5 16:59:07 2016
+    8603 30117 0.285652621443
+
+    iter 49 Wed Oct  5 21:14:19 2016
+    8637 30117 0.286781551947
+
+    iter 99 Thu Oct  6 01:58:16 2016
+    8877 30117 0.294750473155
+
+    result 550 iter 29.4%
+
+RNN-test.ipynb -- shuffle Jlist before each train() process
+
+    recall value is unstable, rise faster, stop rising earlier.
+
+    result 200 iter 24%-26%
